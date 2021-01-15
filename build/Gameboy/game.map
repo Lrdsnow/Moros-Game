@@ -189,8 +189,8 @@ AREA .  .ABS.
 		l__HOME	0252
 		l__GSINIT	0517
 		l__DATA	0E22
-		l__CODE_5	2160
-		l__CODE_10	2700
+		l__CODE_10	1D7C
+		l__CODE_5	2151
 		l__CODE_11	2C7B
 		l__CODE	2EB5
 		s__HOME	30B5
@@ -201,10 +201,10 @@ AREA .  .ABS.
 		l__CODE_1	3905
 		s__GSINITTAIL	3A63
 		s__GSFINAL	3A64
-		l__CODE_7	3FF8
-		l__CODE_6	3FFA
-		l__CODE_8	3FFB
-		l__CODE_9	3FFC
+		l__CODE_9	3FE0
+		l__CODE_8	3FE4
+		l__CODE_7	3FEC
+		l__CODE_6	3FF7
 		s__CODE_10	4000
 		s__CODE_11	4000
 		s__CODE_1	4000
@@ -1036,64 +1036,64 @@ AREA _XSEG
 AREA _CODE_10
 	RADIX HEX
 	BASE 4000
-	SIZE 2700
+	SIZE 1D7C
 	ATTRIB REL CON
 	GLOBALS
 		_bank_10_data	4000
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFA
+	SIZE 3FF7
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF8
+	SIZE 3FEC
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFB
+	SIZE 3FE4
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFC
+	SIZE 3FE0
 	ATTRIB REL CON
 	GLOBALS
 		_bank_9_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 2160
+	SIZE 2151
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	4009
-		_background_attr_bank_ptrs	4033
-		_palette_bank_ptrs	4060
-		_sprite_bank_ptrs	4087
-		_scene_bank_ptrs	40F0
-		_collision_bank_ptrs	411D
-		_avatar_bank_ptrs	414A
-		_music_tracks	414D
-		_music_banks	4161
-		_Start_Adventure	416B
-		_Update_Adventure	4180
-		_Start_Platform	4780
-		_Update_Platform	484C
-		_Start_PointNClick	542C
-		_Update_PointNClick	5455
-		_Start_Shmup	5710
-		_Update_Shmup	57A0
-		_Start_TopDown	5D42
-		_Update_TopDown	5D57
+		_background_attr_bank_ptrs	4030
+		_palette_bank_ptrs	405D
+		_sprite_bank_ptrs	4084
+		_scene_bank_ptrs	40E1
+		_collision_bank_ptrs	410E
+		_avatar_bank_ptrs	413B
+		_music_tracks	413E
+		_music_banks	4152
+		_Start_Adventure	415C
+		_Update_Adventure	4171
+		_Start_Platform	4771
+		_Update_Platform	483D
+		_Start_PointNClick	541D
+		_Update_PointNClick	5446
+		_Start_Shmup	5701
+		_Update_Shmup	5791
+		_Start_TopDown	5D33
+		_Update_TopDown	5D48
 AREA _CODE_11
 	RADIX HEX
 	BASE 4000
@@ -1588,7 +1588,7 @@ MODULES
 	FILE C:/tmp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/tmp/_gbsbuild/obj/data_ptrs.o
-		NAME C__tmp_lcc141121
+		NAME C__tmp_lcc48241
 	FILE C:/tmp/_gbsbuild/obj/main.o
 		NAME C__tmp_lcc112801
 	FILE C:/tmp/_gbsbuild/obj/music_bank_11.o
