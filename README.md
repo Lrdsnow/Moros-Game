@@ -13,3 +13,6 @@ Instructions to edit Game:
 
 Instructions to Playing Game:
 1. Download The File That Matches What you need.
+
+Problems To fix:
+- When Exiting Minigame Nothing is Clickable.
