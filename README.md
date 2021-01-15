@@ -12,7 +12,11 @@ Instructions to edit Game:
 3. Start editing!
 
 Instructions to Playing Game:
-1. Download The File That Matches What you need.
+- Download .cia for 3DS
+or
+- Download .gb for Gameboy (emulator use is what its meant for)
+or
+- Go To https://lrdsnow.itch.io/moros-game And Play it Online
 
 Problems To fix:
 - When Exiting Minigame Nothing is Clickable.
