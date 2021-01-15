@@ -1,5 +1,5 @@
-# Moros
-Moros Is A Programmed Movie &amp; has a counterpart Game
+# Moros, The Game
+Moros, The Game Is A Game That Is Based off of a movie that is still in the process of being made 
 This Is (technically) a SDK
 
 You Can Also Find Game pre-Releases on: https://mc.lrdsnow.repl.co/Downloads/MorosGD.html
