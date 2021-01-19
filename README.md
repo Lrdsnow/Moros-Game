@@ -18,5 +18,3 @@ or
 or
 - Go To https://lrdsnow.itch.io/moros-game And Play it Online
 
-Problems To fix:
-- When Exiting Minigame Nothing is Clickable.
