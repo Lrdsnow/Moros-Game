@@ -10,6 +10,8 @@ Instructions to edit Game:
 
 Instructions to Playing Game:
 - Download The Package For your system
+
 or
+
 - Go To https://lrdsnow.itch.io/moros-game And Play it Online
 
