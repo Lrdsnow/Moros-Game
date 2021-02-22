@@ -1,52 +1,52 @@
-{
-	"storeInfo": {
-		"title": "MorComGames-Store",
-		"author": "Lrdsnow",
-		"url": "https://raw.githubusercontent.com/Lrdsnow/Moros-Game/master/moros.unistore",
-		"file": "moros.unistore",
-		"sheet": "Stack-Store.t3x",
-		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x",
-		"description": "Here you Can find all MorCom Games (Using Stack Store imgs)",
-		"version": 1,
-		"revision": 1
-	},
-	"storeContent": [{
-		"info": {
-			"title": "Moros",
-			"version": "v1.6.0",
-			"author": "MorComGames",
-			"category": ["MorComGames"],
-			"console": ["3DS", "NDS"],
-			"icon_index": 0,
-			"sheet_index": 0,
-			"description": "A Adventure/RPG/Platformer/Shoot 'em' up  game For the 3DS, DS(i) and GBA",
-			"last_updated": "2021-01-21",
-			"license": "GNU General Public License v3.0"
-		},
-		"Download Moros For 3DS": [{
-			"type": "downloadRelease",
-			"repo": "Lrdsnow/Moros-Game",
-			"file": "Moros_3DS.cia",
-			"output": "sdmc:/moros.cia",
-			"message": "Downloading Moros! Please Wait..."
-		},
-                {
-			"type": "installCia",
-			"file": "sdmc:/moros.cia",
-			"message": "Installing Moros! Please Wait..."
-		},
-		{
-			"type": "deleteFile",
-			"file": "sdmc:/moros.cia",
-			"message": "finalizing..."
-		}],
-		"Download Moros For DSi": [{
-			"message": "Not Availble Currently"
-		}],
-		"Download Moros For DS": [{
-			"message": "Not Avaible"
-		}],
-		"Download Moros For GBA": [{
-			"message": "Not Avaible"
-		}]
-	}
+"storeInfo": {
+    "title": "Universal-DB",
+    "author": "Universal-Team",
+    "description": "Moros Unistore to Download and Update Moros, The Game.",
+    "file": "moros.unistore",
+    "url": "https://raw.githubusercontent.com/Lrdsnow/Moros-Game/master/moros.unistore",
+    "sheet": "universal-db.t3x",
+    "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+    "bg_index": 0,
+    "bg_sheet": 0,
+    "version": 1,
+    "revision": 1
+}
+"storeContent": [
+    {
+        "info": {
+            "title": "Moros",
+            "author": "MorComGames",
+            "version": "v1.6.0",
+            "category": ["game"],
+            "console": ["3DS"],
+            "description": "A Game Based off of a Movie Called Moros",
+            "license": "gpl-3.0",
+            "icon_index": 0,
+            "sheet_index": 0,
+            "last_updated": "2021-01-21"
+        },
+        "Download Moros": [
+	    {
+                "type": "promptMessage",
+                "message": "Warning!: This is Still in its Early Stage! Do You Still Wish To Procceed?",
+                "count": 1
+            },
+            {
+                "file": "https://github.com/Lrdsnow/Moros-Game/releases/download/v1.6-Alpha/Moros_3DS.cia",
+                "message": "Downloading Moros...",
+                "output": "sdmc:/moros.cia",
+                "type": "downloadFile"
+            },
+            {
+                "file": "/moros.cia",
+                "message": "Installing Moros...",
+                "type": "installCia"
+            },
+            {
+                "file": "sdmc:/moros.cia",
+                "message": "Finalizing...",
+                "type": "deleteFile"
+            }
+        ]
+    }
+]
