@@ -1,52 +1,28 @@
-"storeInfo": {
-    "title": "Universal-DB",
-    "author": "Universal-Team",
-    "description": "Moros Unistore to Download and Update Moros, The Game.",
-    "file": "moros.unistore",
-    "url": "https://raw.githubusercontent.com/Lrdsnow/Moros-Game/master/moros.unistore",
-    "sheet": "universal-db.t3x",
-    "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-    "bg_index": 0,
-    "bg_sheet": 0,
-    "version": 1,
-    "revision": 1
-}
-"storeContent": [
-    {
-        "info": {
-            "title": "Moros",
-            "author": "MorComGames",
-            "version": "v1.6.0",
-            "category": ["game"],
-            "console": ["3DS"],
-            "description": "A Game Based off of a Movie Called Moros",
-            "license": "gpl-3.0",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2021-01-21"
-        },
-        "Download Moros": [
-	    {
-                "type": "promptMessage",
-                "message": "Warning!: This is Still in its Early Stage! Do You Still Wish To Procceed?",
-                "count": 1
-            },
-            {
-                "file": "https://github.com/Lrdsnow/Moros-Game/releases/download/v1.6-Alpha/Moros_3DS.cia",
-                "message": "Downloading Moros...",
-                "output": "sdmc:/moros.cia",
-                "type": "downloadFile"
-            },
-            {
-                "file": "/moros.cia",
-                "message": "Installing Moros...",
-                "type": "installCia"
-            },
-            {
-                "file": "sdmc:/moros.cia",
-                "message": "Finalizing...",
-                "type": "deleteFile"
-            }
-        ]
-    }
-]
+{
+	"storeInfo": {
+		"url": "https://raw.githubusercontent.com/Lrdsnow/Moros-Game/master/Moros.unistore",
+		"file": "Moros.unistore",
+		"title": "Moros Updater",
+		"author": "Lrdsnow",
+		"description": "For Updating Moros",
+		"revision":11,
+		"version": 1
+	},
+	"storeContent": [{
+		"Download Moros, The Game For 3DS": [{
+			"type": "downloadFile",
+			"file": "https://github.com/Lrdsnow/Moros-Game/blob/master/build/3ds/Moros_3DS.cia?raw=true",
+			"output": "sdmc:/Moros_3DS.cia",
+			"message": "Downloading The Latest Moros Release"
+		},
+		"info": {
+			"title": "Moros",
+			"version": "1.5.5",
+			"author": "Lrdsnow",
+			"category": ["game"],
+			"console": ["3DS"],
+			"icon_index":0,
+			"license": "",
+			"description": "Moros, The Game For 3DS"
+		}
+	}
