@@ -16,4 +16,4 @@ or
 - Go To https://lrdsnow.itch.io/moros-game And Play it Online
 
 Bugs:
-Please put bugs you find in issues.
+Please put bugs you find in issues. You Can Also Find Them In Releases
