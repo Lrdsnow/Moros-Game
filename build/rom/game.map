@@ -189,22 +189,22 @@ AREA .  .ABS.
 		l__HOME	0252
 		l__GSINIT	0517
 		l__DATA	0E22
-		l__CODE_5	2160
+		l__CODE_5	216C
 		l__CODE_11	2C7B
-		l__CODE_10	2DFE
 		l__CODE	2EB5
 		s__HOME	30B5
 		s__BASE	3307
 		l__CODE_4	34DF
 		s__LIT	354C
 		s__GSINIT	354C
+		l__CODE_10	3574
 		l__CODE_1	3905
 		s__GSINITTAIL	3A63
 		s__GSFINAL	3A64
-		l__CODE_6	3FF2
-		l__CODE_8	3FF3
-		l__CODE_9	3FF4
-		l__CODE_7	3FF6
+		l__CODE_6	3FED
+		l__CODE_7	3FEF
+		l__CODE_8	3FF0
+		l__CODE_9	3FFC
 		s__CODE_10	4000
 		s__CODE_11	4000
 		s__CODE_1	4000
@@ -1036,64 +1036,64 @@ AREA _XSEG
 AREA _CODE_10
 	RADIX HEX
 	BASE 4000
-	SIZE 2DFE
+	SIZE 3574
 	ATTRIB REL CON
 	GLOBALS
 		_bank_10_data	4000
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF2
+	SIZE 3FED
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
 AREA _CODE_7
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF6
+	SIZE 3FEF
 	ATTRIB REL CON
 	GLOBALS
 		_bank_7_data	4000
 AREA _CODE_8
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF3
+	SIZE 3FF0
 	ATTRIB REL CON
 	GLOBALS
 		_bank_8_data	4000
 AREA _CODE_9
 	RADIX HEX
 	BASE 4000
-	SIZE 3FF4
+	SIZE 3FFC
 	ATTRIB REL CON
 	GLOBALS
 		_bank_9_data	4000
 AREA _CODE_5
 	RADIX HEX
 	BASE 4000
-	SIZE 2160
+	SIZE 216C
 	ATTRIB REL CON
 	GLOBALS
 		_tileset_bank_ptrs	4000
 		_background_bank_ptrs	400C
 		_background_attr_bank_ptrs	4036
-		_palette_bank_ptrs	406C
-		_sprite_bank_ptrs	4090
-		_scene_bank_ptrs	40DE
-		_collision_bank_ptrs	4114
-		_avatar_bank_ptrs	414A
-		_music_tracks	414D
-		_music_banks	4161
-		_Start_Adventure	416B
-		_Update_Adventure	4180
-		_Start_Platform	4780
-		_Update_Platform	484C
-		_Start_PointNClick	542C
-		_Update_PointNClick	5455
-		_Start_Shmup	5710
-		_Update_Shmup	57A0
-		_Start_TopDown	5D42
-		_Update_TopDown	5D57
+		_palette_bank_ptrs	406F
+		_sprite_bank_ptrs	4096
+		_scene_bank_ptrs	40E4
+		_collision_bank_ptrs	411D
+		_avatar_bank_ptrs	4156
+		_music_tracks	4159
+		_music_banks	416D
+		_Start_Adventure	4177
+		_Update_Adventure	418C
+		_Start_Platform	478C
+		_Update_Platform	4858
+		_Start_PointNClick	5438
+		_Update_PointNClick	5461
+		_Start_Shmup	571C
+		_Update_Shmup	57AC
+		_Start_TopDown	5D4E
+		_Update_TopDown	5D63
 AREA _CODE_11
 	RADIX HEX
 	BASE 4000
@@ -1519,68 +1519,64 @@ MODULES
 		NAME Runtime
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Actor_a.o
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Actor_b.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem9¬Vâ9¬Vâ0¥8ê¢­At.îAšõAšõA0¥ORÑ
+		NAME C__Users_Lrdsn_AppData_Local_Temq^Çq^Çx0ÏÒ¥däædµÒıdµÒıdxG¸@ÆOÿ
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Actor.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem™¢Vâ™¢Vâ«8ê­A:ÃîA:õA:õA«O·S­
+		NAME C__Users_Lrdsn_AppData_Local_Temöx^Çöx^Çÿq0ÏmÛ¥döDædUÛıdUÛıdÿqG¸tÇø
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/asm.macros.o
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/BankData.o
-		NAME C__Users_Lrdsn_AppData_Local_Temù©Vâù©Vâğ 8êb
-­AèîAZ
-õAZ
-õAğ OÓR	By
+		NAME C__Users_Lrdsn_AppData_Local_TemÖy^ÇÖy^Çßp0ÏMÚ¥dc»æduÚıduÚıdßpG¸XÇGø
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/BankManager.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem¹­Vâ¹­Vâ°¤8ê"­A¶GîAõAõA°¤OKRNo
+		NAME C__Users_Lrdsn_AppData_Local_Tem¶s^Ç¶s^Ç¿z0Ï-Ğ¥d¥^ædĞıdĞıd¿zG¸,Æóÿ
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Camera_a.o
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Camera.o
-		NAME C__Users_Lrdsn_AppData_Local_TemY°VâY°VâP¹8êÂ­ASùîAúõAúõAP¹OïQe‚¼’
+		NAME C__Users_Lrdsn_AppData_Local_Tem–t¡Ç–t¡ÇŸ}ÏÏ×Zdvd5×d5×dŸ}¸¸ğ&Şü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Collision.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem9°Vâ9°Vâ0¹8ê¢­AééîAšõAšõA0¹O›QQ‚
+		NAME C__Users_Lrdsn_AppData_Local_TemVz¡ÇVz¡Ç_sÏÏÍÙZdÒ@dõÙdõÙd_s¸¸('ı
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Core_Main.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem¹²Vâ¹²Vâ°»8ê"­A&dîAõAõA°»O«Q¡ƒ_—
+		NAME C__Users_Lrdsn_AppData_Local_Tem6t¡Ç6t¡Ç?}ÏÏ­×ZdH>d•×d•×d?}¸¸ü&Êü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/DataManager.o
-		NAME C__Users_Lrdsn_AppData_Local_Temy¶Vây¶Vâp¿8êâ­ALÎîAÚõAÚõAp¿O#Q‚e
+		NAME C__Users_Lrdsn_AppData_Local_TemVt¡ÇVt¡Ç_}ÏÏÍ×ZdE”dõ×dõ×d_}¸¸è&Æü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/FadeManager_b.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem9·Vâ9·Vâ0¾8ê¢­AÁúîAšõAšõA0¾O;Q1‚‹
+		NAME C__Users_Lrdsn_AppData_Local_Tem¶q¡Ç¶q¡Ç¿xÏÏ-ÒZdÙ•dÒdÒd¿x¸¸l&zü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/FadeManager.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem²Vâ²Vâ»8ê‚­AÂ‰îAºõAºõA»O§Qƒ˜
+		NAME C__Users_Lrdsn_AppData_Local_Temvw¡Çvw¡Ç~ÏÏíÔZdè¡dÕÔdÕÔd~¸¸„&¢ü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/gbt_player_bank1.o
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/gbt_player.o
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Input.o
-		NAME C__Users_Lrdsn_AppData_Local_TemyµVâyµVâp¼8êâ­AY1îAÚõAÚõAp¼OCQù‚
+		NAME C__Users_Lrdsn_AppData_Local_Tem6s¡Ç6s¡Ç?zÏÏ­ĞZd¤d•Ğd•Ğd?z¸¸&*ü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Math.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem™³Vâ™³Vâº8ê­A¢îA:õA:õAºO—QM‚b”
+		NAME C__Users_Lrdsn_AppData_Local_TemÖq¡ÇÖq¡ÇßxÏÏMÒZd!‘duÒduÒdßx¸¸X&vü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/MusicManager.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem±Vâ±Vâ¸8ê‚­AóîAºõAºõA¸OÇQ}‚
+		NAME C__Users_Lrdsn_AppData_Local_Temöu¡Çöu¡Çÿ|ÏÏmÖZd”dUÖdUÖdÿ|¸¸Ô&òü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Palette.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem¹´Vâ¹´Vâ°½8ê"­AA
-îAõAõA°½OkQá‚
+		NAME C__Users_Lrdsn_AppData_Local_Tem¶r¡Ç¶r¡Ç¿{ÏÏ-ÑZd:°dÑdÑd¿{¸¸Ì&ü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Projectiles_b.o
-		NAME C__Users_Lrdsn_AppData_Local_Temù½Vâù½Vâğ´8êb­A³ŒîAZõAZõAğ´OSP‰ƒ™
+		NAME C__Users_Lrdsn_AppData_Local_Tem–y¡Ç–y¡ÇŸpÏÏÚZdì!d5Úd5ÚdŸp¸¸P'~ı
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Projectiles.o
-		NAME C__Users_Lrdsn_AppData_Local_TemÙ¿VâÙ¿VâĞ¶8êB­A~iîAzõAzõAĞ¶OPÕƒ.
+		NAME C__Users_Lrdsn_AppData_Local_Temvr¡Çvr¡Ç{ÏÏíÑZd+°dÕÑdÕÑd{¸¸$&ü
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner_b.o
-		NAME C__Users_Lrdsn_AppData_Local_TemùªVâùªVâğ£8êb	­AGCîAZ	õAZ	õAğ£O³R©‚
+		NAME C__Users_Lrdsn_AppData_Local_Tem{¡Ç{¡ÇrÏÏØZdõœdµØdµØdr¸¸
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/ScriptRunner.o
-		NAME C__Users_Lrdsn_AppData_Local_Temù¾Vâù¾Vâğ·8êb­A'ÓîAZõAZõAğ·O3P)ƒ
+		NAME C__Users_Lrdsn_AppData_Local_Tem6¡Ç6¡Ç?vÏÏ­ÜZdNd•Üd•Üd?v¸¸œ'ªı
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Scroll_a.o
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Scroll_b.o
-		NAME C__Users_Lrdsn_AppData_Local_Temù»Vâù»Vâğ²8êb­An’îAZõAZõAğ²O“PIƒ
+		NAME C__Users_Lrdsn_AppData_Local_Temöb¡Çöb¡ÇÿkÏÏmÁZdAEdUÁdUÁdÿk¸¸4$ş
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Scroll.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem¸Vâ¸Vâ±8ê‚­A4îAºõAºõA±OçP]ƒe¨
+		NAME C__Users_Lrdsn_AppData_Local_TemÖ~¡ÇÖ~¡ÇßwÏÏMİZd£—duİduİdßw¸¸¸'–ı
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Sprite_b.o
-		NAME C__Users_Lrdsn_AppData_Local_TemY¾VâY¾VâP·8êÂ­AÍîAúõAúõAP·O/P%ƒ
+		NAME C__Users_Lrdsn_AppData_Local_Temö|¡Çö|¡ÇÿuÏÏmßZdVXdUßdUßdÿu¸¸ô'Òı
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Sprite.o
-		NAME C__Users_Lrdsn_AppData_Local_Temù€Vâù€Vâğ‰8êb#­Aª_îAZ#õAZ#õAğ‰OóWi„
+		NAME C__Users_Lrdsn_AppData_Local_Tem¶}¡Ç¶}¡Ç¿tÏÏ-ŞZdÒdŞdŞd¿t¸¸ì'úı
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Stack.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem™ƒVâ™ƒVâŠ8ê ­A—ËîA: õA: õAŠO—WM„
+		NAME C__Users_Lrdsn_AppData_Local_Tem¶c¡Ç¶c¡Ç¿jÏÏ-ÀZd^ÂdÀdÀd¿j¸¸,$:ş
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Trigger_b.o
-		NAME C__Users_Lrdsn_AppData_Local_TemùzVâùzVâğs8êbÙ­AmŸîAZÙõAZÙõAğsO³H©„
+		NAME C__Users_Lrdsn_AppData_Local_Tema¡Ça¡ÇhÏÏÂZdÕ\dµÂdµÂdh¸¸@$nş
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Trigger.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem¹Vâ¹Vâ°†8ê",­A¬îA,õA,õA°†OVÁ…œ
+		NAME C__Users_Lrdsn_AppData_Local_Tem–e¡Ç–e¡ÇŸlÏÏÆZdÎd5Æd5ÆdŸl¸¸Ğ$şş
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/UI_b.o
-		NAME C__Users_Lrdsn_AppData_Local_TemÙ‚VâÙ‚VâĞ‹8êB!­AñBîAz!õAz!õAĞ‹O¿Wµ…A
+		NAME C__Users_Lrdsn_AppData_Local_Tem–f¡Ç–f¡ÇŸoÏÏÅZd~Md5Åd5ÅdŸo¸¸°$ş
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/UI.o
-		NAME C__Users_Lrdsn_AppData_Local_TemÙ„VâÙ„VâĞ8êB'­AC1îAz'õAz'õAĞOWõ„e
+		NAME C__Users_Lrdsn_AppData_Local_TemÖc¡ÇÖc¡ÇßjÏÏMÀZd@•duÀduÀdßj¸¸$6ş
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/bank_10.o
 		NAME bank_10
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/bank_6.o
@@ -1592,23 +1588,21 @@ MODULES
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/data_ptrs.o
-		NAME C__Users_Lrdsn_AppData_Local_TemA:LàA:LàH3"èÚ™·CÏGôCâ™ïCâ™ïCH3UŸ¬
+		NAME C__Users_Lrdsn_AppData_Local_Tem–k¡Ç–k¡ÇŸbÏÏÈZdî…d5Èd5ÈdŸb¸¸%>ÿ
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/main.o
-		NAME C__Users_Lrdsn_AppData_Local_TemELàELàˆL"èæ·C¼ôC"æïC"æïCˆLUŸTÎ‚
+		NAME C__Users_Lrdsn_AppData_Local_Tem¶o¡Ç¶o¡Ç¿fÏÏ-ÌZdKndÌdÌd¿f¸¸¬%ºÿ
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/music_bank_11.o
 		NAME music_bank_11
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Adventure.o
-		NAME C__Users_Lrdsn_AppData_Local_TemaELàaELàhL"èúæ·C-ÿôCÂæïCÂæïChLUŸ@º‚
+		NAME C__Users_Lrdsn_AppData_Local_Temm¡Çm¡ÇdÏÏÎZdpldµÎdµÎdd¸¸À%îÿ
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Platform.o
-		NAME C__Users_Lrdsn_AppData_Local_TemÁDLàÁDLàÈM"èZç·C6ÍôCbçïCbçïCÈMUŸ|¶‚
+		NAME C__Users_Lrdsn_AppData_Local_Tem–T^Ç–T^ÇŸ]0Ï÷¥d òæd5÷ıd5÷ıdŸ]G¸ğÂŸû
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/PointNClick.o
-		NAME C__Users_Lrdsn_AppData_Local_TemAMLàAMLàHD"èÚî·C» ôCâîïCâîïCHDUŸLÆƒ
+		NAME C__Users_Lrdsn_AppData_Local_TemÖW^ÇÖW^Çß^0ÏMô¥dKæduôıduôıdß^G¸
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/Shmup.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem	ï€â	ï€â
+		NAME C__Users_Lrdsn_AppData_Local_TemU^ÇU^Ç\0Ïö¥dZædµöıdµöıd\G¸ÀÂÏû
 	FILE C:/Users/Lrdsn/AppData/Local/Temp/_gbsbuild/obj/TopDown.o
-		NAME C__Users_Lrdsn_AppData_Local_Tem©è€â©è€â áîê2K{Aµø8A
-K#A
-K#A á™éš‡…
+		NAME C__Users_Lrdsn_AppData_Local_Tem.µNÇ.µNÇ'¼ Ïµµd}Yödídíd'¼W¸ßŞkı
 LIBRARIES
 	LIBRARY C:\Users\Lrdsn\AppData\Local\Temp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
