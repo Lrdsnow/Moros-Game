@@ -38067,7 +38067,10 @@
                                                                 "args": {
                                                                     "text": [
                                                                         "Please Wait For an\nUpdate Yeash The\nDevs Can Only Work",
-                                                                        "So Fast."
+                                                                        "So Fast. Try\nPlaying A Dev\nRelease Or Build",
+                                                                        "The Lstest Version\nYourSelf It is\nlocated in the DEV",
+                                                                        "Branch on\nGithub.com/Lrdsnow",
+                                                                        "/Moros-Game"
                                                                     ],
                                                                     "avatarId": ""
                                                                 }
@@ -48052,8 +48055,8 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 450,
-        "worldScrollY": 0,
+        "worldScrollX": 324,
+        "worldScrollY": 624,
         "zoom": 100,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
