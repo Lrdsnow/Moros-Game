@@ -784,10 +784,10 @@
 01:400F _background_bank_ptrs
 01:4042 _background_attr_bank_ptrs
 01:409C _palette_bank_ptrs
-01:40D5 _sprite_bank_ptrs
-01:4123 _scene_bank_ptrs
-01:417D _collision_bank_ptrs
-01:41D7 _avatar_bank_ptrs
+01:40D2 _sprite_bank_ptrs
+01:4120 _scene_bank_ptrs
+01:417A _collision_bank_ptrs
+01:41D4 _avatar_bank_ptrs
 01:41DA _music_tracks
 01:41EE _music_banks
 01:41F8 _Start_Adventure
