@@ -13,7 +13,7 @@ Instructions to Playing Game:
 
 or
 
-- Go To https://lrdsnow.itch.io/moros-game And Play it Online
+- Go To https://lrdsnow.itch.io/moros-game-dev And Play it Online
 
 Bugs:
 Please put bugs you find in issues.
