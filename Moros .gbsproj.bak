@@ -43759,55 +43759,71 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "0f2f3574-cf13-4fca-b760-a665c683ef32",
-                            "command": "EVENT_AWAIT_INPUT",
+                            "id": "b1006766-cf32-43f7-a46e-5d1cd0718eb2",
+                            "command": "EVENT_IF_INPUT",
                             "args": {
                                 "input": [
-                                    "a"
+                                    "a",
+                                    "up"
+                                ],
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "5344ee3e-13d1-436d-b259-36921b3c5678",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Welcome to The\nShop!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "da353092-f8e9-4988-a6d9-b122563c6e9f",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "What You Like to\nBuy Today."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "9f9697c5-ce4f-498a-be18-b7d0e39ea86d",
+                                        "command": "EVENT_MENU",
+                                        "args": {
+                                            "variable": "L0",
+                                            "items": 4,
+                                            "option1": "-",
+                                            "option2": "-",
+                                            "option3": "-",
+                                            "option4": "Exit",
+                                            "option5": "",
+                                            "option6": "",
+                                            "option7": "",
+                                            "option8": "",
+                                            "cancelOnB": true,
+                                            "layout": "dialogue",
+                                            "cancelOnLastOption": true
+                                        }
+                                    },
+                                    {
+                                        "id": "ad3487ce-1e2b-4335-ad8c-d35a7a2834bf",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "8dae7880-4248-429e-bdb8-4ae13e3b22cd",
+                                        "command": "EVENT_END"
+                                    }
                                 ]
                             }
                         },
                         {
-                            "id": "d1bc0327-1eba-411b-a1dd-550014d92366",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Welcome to The\nShop!"
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "4580b52c-c0d3-4c0f-903a-ef1bd78cdf66",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "What You Like to\nBuy Today."
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "65993cab-e19e-437e-8aa7-bb50ed0b3092",
-                            "command": "EVENT_MENU",
-                            "args": {
-                                "variable": "L0",
-                                "items": 4,
-                                "option1": "-",
-                                "option2": "-",
-                                "option3": "-",
-                                "option4": "Exit",
-                                "option5": "",
-                                "option6": "",
-                                "option7": "",
-                                "option8": "",
-                                "cancelOnB": true,
-                                "layout": "dialogue",
-                                "cancelOnLastOption": true
-                            }
-                        },
-                        {
-                            "id": "23f25555-2276-4304-8978-92044f7f44d1",
+                            "id": "fdbd3dcb-de55-46c9-b6d0-c8152cc086f3",
                             "command": "EVENT_END"
                         }
                     ],
@@ -43822,51 +43838,67 @@
                     "trigger": "walk",
                     "script": [
                         {
-                            "id": "038eeab9-066c-4c6f-8861-65a110e4ec94",
-                            "command": "EVENT_AWAIT_INPUT",
+                            "id": "bcdf2c53-9dd4-464f-82dd-c3d7213e1641",
+                            "command": "EVENT_IF_INPUT",
                             "args": {
                                 "input": [
-                                    "a"
+                                    "a",
+                                    "up"
+                                ],
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "id": "1662853d-fd45-44c4-9a4e-303b44e5df00",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Welcome to The\nShop!"
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "ed2b375b-159a-40a0-adfb-91cd561dd24c",
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "What You Like to\nBuy Today."
+                                            ],
+                                            "avatarId": ""
+                                        }
+                                    },
+                                    {
+                                        "id": "ba51c0dc-7e87-407a-ba63-72f37024a1c7",
+                                        "command": "EVENT_MENU",
+                                        "args": {
+                                            "variable": "L0",
+                                            "items": 4,
+                                            "option1": "-",
+                                            "option2": "-",
+                                            "option3": "-",
+                                            "option4": "Exit",
+                                            "option5": "",
+                                            "option6": "",
+                                            "option7": "",
+                                            "option8": "",
+                                            "cancelOnB": true,
+                                            "layout": "dialogue",
+                                            "cancelOnLastOption": true
+                                        }
+                                    },
+                                    {
+                                        "id": "9c0e4eee-359f-4547-ab86-184217b06b27",
+                                        "command": "EVENT_END"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "id": "fb9a40ad-4f2c-474a-a691-cc592b09bad4",
+                                        "command": "EVENT_END"
+                                    }
                                 ]
-                            }
-                        },
-                        {
-                            "id": "1662853d-fd45-44c4-9a4e-303b44e5df00",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Welcome to The\nShop!"
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "ed2b375b-159a-40a0-adfb-91cd561dd24c",
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "What You Like to\nBuy Today."
-                                ],
-                                "avatarId": ""
-                            }
-                        },
-                        {
-                            "id": "ba51c0dc-7e87-407a-ba63-72f37024a1c7",
-                            "command": "EVENT_MENU",
-                            "args": {
-                                "variable": "L0",
-                                "items": 4,
-                                "option1": "-",
-                                "option2": "-",
-                                "option3": "-",
-                                "option4": "Exit",
-                                "option5": "",
-                                "option6": "",
-                                "option7": "",
-                                "option8": "",
-                                "cancelOnB": true,
-                                "layout": "dialogue",
-                                "cancelOnLastOption": true
                             }
                         },
                         {
@@ -62348,7 +62380,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1169,
-        "worldScrollY": 0,
+        "worldScrollY": 300,
         "zoom": 100,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
